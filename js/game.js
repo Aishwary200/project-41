@@ -67,7 +67,7 @@ class Game{
                      //text to display player score.
                      textSize(15); 
                      fill("white"); 
-                     text( player.name+": "+allPlayers[plr].score,x,y-400); 
+                     text( allPlayers[plr].name+": "+allPlayers[plr].score,x,y-400); 
                     
                  }
                 
@@ -98,6 +98,7 @@ class Game{
                          break;
                          case 5: fruits.addImage("fruit1", fruit5_img);
                          break;
+                         default:break;
                      }
                      fruitGroup.add(fruits);
                      
